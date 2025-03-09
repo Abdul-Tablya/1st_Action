@@ -1,0 +1,10 @@
+name: First Flow 
+on: workflow_dispatch #--> Event
+jobs:
+  first-job: 
+    runs-on: ubuntu-latest #-->  define OS
+    steps:
+      - name: print A7A
+        run: echo "A7A" # --> shell command
+      - name: printing toz feek
+        run: echo "toz feek"
