@@ -9,7 +9,7 @@ jobs:
       - name: printing toz feek
         run: echo "toz feek"
 
-  2nd-job:
+  second-job:
     needs: first-job
     runs-on: ubuntu-latest #-->  define OS
     steps: 
